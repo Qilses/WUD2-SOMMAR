@@ -31,7 +31,7 @@ img{
     display: inline-block;
     width: 90vw;
     height: auto;
-    padding: 1rem;
+    padding: 1rem; /* Av någon anledning så funkarde rem här men inte vw som jag ville  */
     margin: auto;
     text-align: center;
     
