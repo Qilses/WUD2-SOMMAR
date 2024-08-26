@@ -2,6 +2,12 @@ h1 {
     text-align: center;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: normal;
-    background-color: #ff0000;
     padding:1px;
+}
+img{
+    display: block;
+    width: 100px;
+    height: auto;
+    text-align: center;
+    margin: auto;
 }
