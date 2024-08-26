@@ -1,13 +1,44 @@
 h1 {
+    font-size: 2vw;
     text-align: center;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: normal;
     padding:1px;
 }
+h2 {
+    font-size: 1vw;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    margin-block: 20px;
+    text-align: center;
+}
+p {
+    display: block;
+    font-size: 2vw;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    margin-block: 20px;
+    text-align: center;
+}
 img{
     display: block;
-    width: 100px;
-    height: auto;
+    width: 30vw;
     text-align: center;
     margin: auto;
+    border-radius: 50%; /* Gör så att bilden inte är så fyrkantig */
+}
+.lockline {
+    display: inline-block;
+    width: 90vw;
+    height: auto;
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
+    
+}
+body {
+    background-image: url("crazy.gif") ; /* lägger till bilden */ 
+    background-size: cover; /* Sträcker ut bilden*/
+    background-position: 0vw; /*Gör så att bilden blir centerar vet inte varför men om jag höjer vw så blir det mer madding på sidan */
+    background-repeat: no-repeat; /* Gör så att backgrounden inte repeterar */
 }
