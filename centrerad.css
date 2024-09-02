@@ -1,0 +1,22 @@
+h1, h2, p {
+max-width: 80ch;
+
+}
+body{
+    font-size: 1,2rem;
+    color: rgba(0,0,0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.container{
+    max-width: 60ch !important;
+    /*margin: 0 auto;*/
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+
+
+}
